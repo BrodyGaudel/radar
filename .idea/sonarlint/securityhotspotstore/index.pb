@@ -167,3 +167,7 @@ bradar-service/src/main/java/org/mounanga/radarservice/common/exception/Negative
 gradar-service/src/test/java/org/mounanga/radarservice/queries/service/RadarEventHandlerServiceTest.java,8\7\871d4dd7e08136e611791d43a3f65c90754398bf
 —
 gradar-service/src/test/java/org/mounanga/radarservice/queries/service/RadarQueryHandlerServiceTest.java,a\5\a56fb3b87c819e5964e8beefc4bcbd626abcc792
+J
+infraction-service/pom.xml,b\2\b29405fe4306ccd3f6e81432ecb14ad24f6e4605
+‘
+ainfraction-service/src/main/java/org/mounanga/infractionservice/InfractionServiceApplication.java,d\9\d92d4b002ea010d9939bca641a8c71c289e3d183
