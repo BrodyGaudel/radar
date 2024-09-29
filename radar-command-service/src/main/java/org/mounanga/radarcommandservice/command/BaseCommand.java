@@ -1,0 +1,16 @@
+package org.mounanga.radarcommandservice.command;
+
+import lombok.Getter;
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
+
+@Getter
+public class BaseCommand<T> {
+
+    @TargetAggregateIdentifier
+    private final T commandId;
+
+    public BaseCommand(T commandId) {
+        this.commandId = commandId;
+    }
+
+}

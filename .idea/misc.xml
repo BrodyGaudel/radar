@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/radar-service/pom.xml" />
         <option value="$PROJECT_DIR$/infraction-service/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/radar-command-service/pom.xml" />
+        <option value="$PROJECT_DIR$/radar-query-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

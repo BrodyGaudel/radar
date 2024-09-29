@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="radar-command-service" />
+        <module name="gateway-service" />
+        <module name="radar-query-service" />
         <module name="registration-service" />
         <module name="radar-service" />
         <module name="discovery-service" />
-        <module name="gateway-service" />
         <module name="infraction-service" />
       </profile>
     </annotationProcessing>
@@ -20,6 +22,8 @@
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="infraction-service" options="-parameters" />
+      <module name="radar-command-service" options="-parameters" />
+      <module name="radar-query-service" options="-parameters" />
       <module name="radar-service" options="-parameters" />
       <module name="registration-service" options="-parameters" />
     </option>
